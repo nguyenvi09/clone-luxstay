@@ -1,0 +1,50 @@
+:root {
+    --white-color: #fff;
+    --hover: #f65e39;
+}
+.html {
+    /* 62.5% <=> 10px <=> 1rem */
+    font-size: 62.5%;
+    /* 16px */
+    line-height: 1.6rem;
+    /* Roboto là font vừa chọn, sans-serif(tập hợp chữ) là chủng chữ không có chân */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* reser css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        color: #461002;
+        /* opacity: 0.5; */
+    }
+    to {
+        color: #f65e39;
+        /* opacity: 1; */
+    }
+}
+
+/* Mobile: width < 740px
+@media only screen and (max-width: 739px) {
+
+}
+
+/* tablet : widt >= 740px and witd < 1024px */
+/* @media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .header {
+        margin: 0;
+        padding: 0;
+    }
+} */
+
+/* PC: width >= 1024px */
+/* @media only screen and (min-width: 1024px) {
+    
+} */
+
+
